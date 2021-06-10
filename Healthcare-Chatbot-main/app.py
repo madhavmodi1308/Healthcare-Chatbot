@@ -24,7 +24,7 @@ app = Flask(__name__)
 # model_liverdisease = pickle.load(open('liverdisease.pkl', 'rb'))
 # model_cancer = pickle.load(open('breastcancer.pkl', 'rb'))
 
-df=pd.read_csv('C:/Users/Loconav/Downloads/Healthcare-Chatbot-main/Healthcare-Chatbot-main/Dataset/df_pivoted_final_dataset1.csv',encoding='utf-8')
+df=pd.read_csv('C:/Users/Loconav/Downloads/Healthcare-Chatbot-main/Healthcare-Chatbot-main/Dataset/df_pivoted_final, dataset1.csv',encoding='utf-8')
 df1=pd.read_csv('C:/Users/Loconav/Downloads/Healthcare-Chatbot-main/Healthcare-Chatbot-main/Dataset/Training.csv')
 df1=df1.groupby(['prognosis']).sum()
 df1=pd.DataFrame(df1)
